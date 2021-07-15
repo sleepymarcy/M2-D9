@@ -8,31 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/3db6d6de92.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    
 
     <title>Marcys Music</title>
 
-    <style>
-        /* PREVIOUS CODE */
-    </style>
-    </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="M2-D2.html">Marcys Music</a>
+            <a class="navbar-brand" href="M2-D9.html">Marcys Music</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,7 +27,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="best.html">Best</a>
+                        <a class="nav-link" aria-current="page" href="best.html">Best</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="favourite.html">Favourite</a>
@@ -49,7 +36,7 @@
                         <a class="nav-link" href="covers.html">Covers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">TBC</a>
+                        <a class="nav-link" href="tracklist.html">Tracklist</a>
                     </li>
                 </ul>
             </div>
@@ -57,7 +44,7 @@
     </nav>
 
     <div class="main">
-        <div class="jumbotron">
+        <div class="jumbotron" id="test">
             <h1 class="display-4">Hello, world!</h1>
             <p class="lead">My name is Marcy and on this page I'm sharing my favourite albums. Enjoy!</p>
             <hr class="my-4">
@@ -91,21 +78,22 @@
         </div>
     </footer>
 
-    <!-- EXERCISE 1
+    <!-- EXERCISE 1 +
         Create a Jumbotron section with a quick explanation / image of the website.
         Make it appear with a fade-in animation effect when the page loads.
     -->
 
-    <!-- EXERCISE 2
+    <!-- EXERCISE 2 +
+        My favourite list is BEST, FAVOURITE is the best album ever!
         Use the Bootstrap Card to contain every album in the favorite list.
         Use the elements of a card to display nicely the album informations such as album title, artist, year, etc..
     -->
 
-    <!-- EXERCISE 3
-        Foreach album in the favorite list, place a badge on top of it with the genre of the album
+    <!-- EXERCISE 3 +
+        For each album in the favorite list, place a badge on top of it with the genre of the album
     -->
 
-    <!-- EXERCISE 4
+    <!-- EXERCISE 4 +
         Create a section with an album tracklist inside a Bootstrap table.
         The row colors of the table must be alternated.
 
@@ -180,7 +168,16 @@
         Add a fade-out effect to the row before it gets removed, using a CSS transition effect
     -->
 
-
+    <script src="https://kit.fontawesome.com/3db6d6de92.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
