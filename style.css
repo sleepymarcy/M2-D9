@@ -1,0 +1,36 @@
+.favourite{
+    background-image: url("/assets/flower_boy_full.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info{
+    display: inline-block;
+    padding: 30px;
+    background-color: rgba(207, 211, 214, 0.548);
+    width: 35%;   
+    height: 100%;
+}
+
+.main{
+    padding: 10%;
+}
+
+.covers{
+    padding: 5%;
+    width: 50%;
+    margin: auto;
+}
+
+body{
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+    bottom:0;
+    max-height: 0%;
+
+}
