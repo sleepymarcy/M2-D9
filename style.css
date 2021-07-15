@@ -61,3 +61,31 @@ footer {
   from {opacity: 0;}
   to {opacity: 1;}
 }
+
+#pad {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+body {
+    background-image: linear-gradient(
+      to right top,
+      #71e9cb,
+      #50d1e2,
+      #b781fe,
+      #f085d5,
+      #f88d3c
+    );
+}
+
+.card-body {
+    background-color: white;
+    padding: 0;
+}
+
+.card-title {
+    padding: 10px;
+}
+
+.card-deck {
+    padding: 10px;
+}
